@@ -13,8 +13,8 @@
 '.platform-darwin .workspace':
   'ctrl-c': 'runner:stop'
 
-'.platform-linux .workspace .editor':
+'.platform-linux .workspace .editor, .platform-win32 .workspace .editor':
   'ctrl-shift-x': 'runner:run'
 
-'.platform-linux .workspace':
+'.platform-linux .workspace, .platform-win32 .workspace':
   'ctrl-shift-z': 'runner:stop'
